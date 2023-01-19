@@ -6,7 +6,7 @@ public class SimpleTest3 {
 	
 	@Test
 	public void msg() {
-		System.out.println("Hello");
+		System.out.println("Hello how are you");
 	}
 
 }
