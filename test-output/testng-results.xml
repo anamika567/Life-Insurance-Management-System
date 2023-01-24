@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-18T13:08:53 IST" name="Default suite" finished-at="2023-01-18T13:08:53 IST" duration-ms="88">
+  <suite started-at="2023-01-24T13:02:25 IST" name="Default suite" finished-at="2023-01-24T13:02:25 IST" duration-ms="99">
     <groups>
     </groups>
-    <test started-at="2023-01-18T13:08:53 IST" name="Default test" finished-at="2023-01-18T13:08:53 IST" duration-ms="88">
-      <class name="practice_package.CreateAccount">
-        <test-method signature="create()[pri:0, instance:practice_package.CreateAccount@156b88f5]" started-at="2023-01-18T13:08:53 IST" name="create" finished-at="2023-01-18T13:08:53 IST" duration-ms="17" status="PASS">
+    <test started-at="2023-01-24T13:02:25 IST" name="Default test" finished-at="2023-01-24T13:02:25 IST" duration-ms="99">
+      <class name="practice_maven.CreateTest">
+        <test-method signature="create()[pri:0, instance:practice_maven.CreateTest@3bf9ce3e]" started-at="2023-01-24T13:02:25 IST" name="create" finished-at="2023-01-24T13:02:25 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create -->
-      </class> <!-- practice_package.CreateAccount -->
+        <test-method signature="edit()[pri:0, instance:practice_maven.CreateTest@3bf9ce3e]" started-at="2023-01-24T13:02:25 IST" name="edit" finished-at="2023-01-24T13:02:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+      </class> <!-- practice_maven.CreateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
